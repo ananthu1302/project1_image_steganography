@@ -198,7 +198,7 @@ Status decode_magic_string(DecodeInfo *decInfo)
 	    check_magic[i]=decode_byte_to_lsb(buffer);
       }
       check_magic[i]='\0';
-      if(strcmp(check_magic,"ANASWARA") == 0)
+      if(strcmp(check_magic,"ANANTHU") == 0)
       {
 	    printf("INFO: magic string matched\n");
 	    return e_success;
